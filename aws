@@ -1,0 +1,19 @@
+error.html
+<html><head><title>Hello Cloud Gurus</title></head><body><h1>Hello Cloud Gurus</h1><h2>There has been an error...</h2></body></html>
+
+index.html
+<!--CORS Code - Copyright ACloud.guru-->
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<html><body><h1>Welcome to the Index Page!</h1>
+
+<div id="get-html-from-other-s3"></div>
+
+
+<script>
+$("#get-html-from-other-s3").load("loadpage.html")
+</script>
+
+loadpage.html
+<h2>The Page Has Loaded Successfully Cloud Gurus!!</h2></body></html>
